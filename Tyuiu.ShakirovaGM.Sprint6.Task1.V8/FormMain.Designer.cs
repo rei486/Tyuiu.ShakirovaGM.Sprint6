@@ -34,11 +34,12 @@
             textBoxStopStep_SGM = new TextBox();
             labelStartStep_SGM = new Label();
             labelStopStep_SGM = new Label();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // textBoxResult_SGM
             // 
-            textBoxResult_SGM.Location = new Point(227, 12);
+            textBoxResult_SGM.Location = new Point(245, 12);
             textBoxResult_SGM.Multiline = true;
             textBoxResult_SGM.Name = "textBoxResult_SGM";
             textBoxResult_SGM.Size = new Size(197, 426);
@@ -46,7 +47,7 @@
             // 
             // buttonResult_SGM
             // 
-            buttonResult_SGM.Location = new Point(12, 76);
+            buttonResult_SGM.Location = new Point(12, 64);
             buttonResult_SGM.Name = "buttonResult_SGM";
             buttonResult_SGM.Size = new Size(209, 95);
             buttonResult_SGM.TabIndex = 1;
@@ -86,11 +87,19 @@
             labelStopStep_SGM.TabIndex = 5;
             labelStopStep_SGM.Text = "StopStep";
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(12, 178);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 6;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(467, 450);
+            Controls.Add(textBox1);
             Controls.Add(labelStopStep_SGM);
             Controls.Add(labelStartStep_SGM);
             Controls.Add(textBoxStopStep_SGM);
@@ -111,5 +120,6 @@
         private TextBox textBoxStopStep_SGM;
         private Label labelStartStep_SGM;
         private Label labelStopStep_SGM;
+        private TextBox textBox1;
     }
 }

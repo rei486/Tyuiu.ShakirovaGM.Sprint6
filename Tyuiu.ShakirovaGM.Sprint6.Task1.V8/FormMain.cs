@@ -34,5 +34,10 @@ namespace Tyuiu.ShakirovaGM.Sprint6.Task1.V8
 
             textBoxResult_SGM.AppendText("+---------+----------+" + Environment.NewLine);
         }
+
+        private void buttonExample_SGM_Click(object sender, EventArgs e)
+        {
+         
+        }
     }
 }
